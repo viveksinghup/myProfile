@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "DM-Sans";
+  src: url("../font/dm-sans-regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DM-Sarif";
+  src: url("../font/dm-serif-bold.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+:root {
+  --font-primary-regular: 'DM-Sans', Arial, sans-serif;
+  --font-primary-bold: 'DM-Sarif', Arial, sans-serif;
+}
