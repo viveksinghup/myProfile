@@ -109,7 +109,7 @@
                         }}
                     </div>
                     <div class="w-full">
-                        <img
+                        <img loading="lazy"
                             class="w-full img"
                             :src="
                                 $props &&

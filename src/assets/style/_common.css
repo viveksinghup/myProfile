@@ -63,3 +63,7 @@ body{
   background-position: 0 0;
   opacity: .08;
 }
+.bottom-fold{
+  content-visibility: auto;
+  contain-intrinsic-size: 100px 1000px;
+}
