@@ -61,7 +61,7 @@ export default {
 <style lang="postcss" scoped>
 .project-card {
   transition: 0.45s;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.35);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   .p-name {
     transition: 0.45s;
     transform: translateY(100%);
@@ -71,7 +71,7 @@ export default {
     }
   }
   &:hover {
-    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.5);
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.35);
     .p-name {
       transition-delay: 0.25s;
       transform: translateY(7%);

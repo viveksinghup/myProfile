@@ -3,11 +3,11 @@ export const career = [
         id: 1,
         year: "Aug 2020 – Present",
         location: 'Mumbai',
-        company: 'Paytm Insurance',
+        company: 'One97 Communications Limited(Paytm)',
         post: 'Senior Software Engineer',
         link: "http://paytminsurance.co.in/",
         desc:
-            "Working on Product Development, Optimising Pages & SEO Friendly Pages, Integrating Effects/Animations which is matching with page flow, Maintaining & Building Tools etc.",
+            "Handling all use cases from frontend Core team for Common Components that used by across Paytm. Build our own UI Library for styling component and support core development for the Entire PAYTM Application..",
     },
     {
         id: 3,

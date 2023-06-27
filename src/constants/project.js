@@ -12,6 +12,16 @@ export const project = {
         },
         {
             id: 2,
+            name: "Beshak",
+            link: "https://www.beshak.org/",
+            team: "8",
+            category: "India's Insurance advisor platform",
+            image: require("../assets/images/project/beshak.png"),
+            description:
+                "Beshak is India's first unbiased insurance advisor platform with marketplace to connect insurance buyers to insurance advisors.",
+        },
+        {
+            id: 3,
             name: "Coverfox Insurance Broking Pvt. Ltd",
             link: "https://coverfox.com",
             team: "30",
@@ -21,7 +31,7 @@ export const project = {
                 "Coverfox is the biggest InsurTech platform. Offers simple, quick and hassle-free online insurance broking services for car, bike, health, life and travel insurance. Web applications using HTML 5, PostCSS, STYLUS, CSS3, SASS, LESS, J-Query, J-Query Plugins, JavaScript, Git, Yarn, Bootstrap, Twitter Bootstrap, Material Design and Responsive Design(Bootstrap Responsive/Custom) & VueJS, React, Angular JS, Grunt JS, and Among Others also. Develop & implement user interfaces as per latest W3C Standards Rules. Create Cross-Browser and Cross-Platform Compatible & Standards-Compliant CSS-based page layouts. Involved in fixing Front-End Issues with the Layouts.",
         },
         {
-            id: 3,
+            id: 4,
             name: "HDFC School",
             link: "https://www.thehdfcschool.com",
             team: "4",
@@ -31,7 +41,7 @@ export const project = {
                 "HDFC School Website design and develop with html,css,Custom Bootstrap,Jquery,java Script",
         },
         {
-            id: 4,
+            id: 5,
             name: "HDFCRED",
             link: "https://hdfcred.com",
             team: "18",
@@ -41,7 +51,17 @@ export const project = {
                 "HDFC RED is a 100 percent subsidiary of Housing Development Finance Corporation, an Indian financial conglomerate based in Mumbai, India. It operates under HDFC Developers Ltd. and is an online listings platform for real estate.",
         },
         {
-            id: 5,
+            id: 6,
+            name: "P&G Try",
+            link: "https://pgtry.com/",
+            team: "3",
+            category: "P&G Product",
+            image: require("../assets/images/project/pgtry.png"),
+            description:
+                "Group of products to commercialised p&g Portal",
+        },
+        {
+            id: 7,
             name: "Pophop Web App",
             link: "https://www.pophop.com",
             team: "6",
@@ -341,6 +361,76 @@ export const project = {
             image: require("../assets/images/project/cf.jpeg"),
             description:
                 "Coverfox is the biggest InsurTech platform. Offers simple, quick and hassle-free online insurance broking services for car, bike, health, life and travel insurance. Web applications using HTML 5, PostCSS, STYLUS, CSS3, SASS, LESS, J-Query, J-Query Plugins, JavaScript, Git, Yarn, Bootstrap, Twitter Bootstrap, Material Design and Responsive Design(Bootstrap Responsive/Custom) & VueJS, React, Angular JS, Grunt JS, and Among Others also. Develop & implement user interfaces as per latest W3C Standards Rules. Create Cross-Browser and Cross-Platform Compatible & Standards-Compliant CSS-based page layouts. Involved in fixing Front-End Issues with the Layouts.",
+        },
+        {
+            id: 28,
+            name: "P&G Try",
+            link: "https://pgtry.com/",
+            team: "3",
+            category: "P&G Product",
+            image: require("../assets/images/project/pgtry.png"),
+            description:
+                "Group of products to commercialised p&g Portal",
+        },
+        {
+            id: 29,
+            name: "Venus",
+            link: "https://pgtry.com/selena/",
+            team: "2",
+            category: "P&G Product",
+            image: require("../assets/images/project/venus.png"),
+            description:
+                "Venus & Gillete",
+        },
+        {
+            id: 30,
+            name: "Gillete",
+            link: "https://pgtry.com/gillete/",
+            team: "2",
+            category: "P&G Product",
+            image: require("../assets/images/project/gillete.png"),
+            description:
+                "Gillette's Kar Lo Safalta Mutthi Mein is Gillette's pan India marketing activity targeting college going students, to educate them about grooming, confidence and soft skills required for succeeding in their job interviews and landing their dream job. It involved campus activations with grooming sessions by mentors, Gillette Guard razor trials and sampling along with student engagement. The entire activity was digitized to ensure all stakeholders get timely updates about campaign performance.",
+        },
+        {
+            id: 31,
+            name: "Whisper",
+            link: "https://pgtry.com/whisper",
+            team: "2",
+            category: "P&G Product",
+            image: require("../assets/images/project/whisper.png"),
+            description:
+                "Whisper wanted to reach out to young girls to educate them about feminine hygiene and care. This Super Sheroes Academy helped young girls watch educational content related to feminine hygiene from renowned bollywood persona like Bhumi Pednekar. It also featured an interactive quiz with rewards like certificate and Free samples of Whisper pads.",
+        },
+        {
+            id: 32,
+            name: "Adrian",
+            link: "https://www.iiasadrian.com/",
+            team: "2",
+            category: "P&G Product",
+            image: require("../assets/images/project/adrian.png"),
+            description:
+                "IiAS is at the forefront in terms of driving the corporate governance agenda in the Indian capital markets. Adrian provides shareholder voting intelligence and proxy advisory for over 1,100 companies. Insights on resolutions, investor voting patterns and voting rationale.",
+        },
+        {
+            id: 33,
+            name: "IIAS",
+            link: "https://smart.iias.in/account/login/",
+            team: "6",
+            category: "Smart App to Rate and Vote",
+            image: require("../assets/images/project/IIAS.png"),
+            description:
+                "SMART by IiAS provides a platform for Institutional investors to access IiAS's voting recommendations and vote on key shareholder issues as mandated by SEBI. It also provides a way for reporting, voting data reconciliation and generating auto proxy instructions based for different custodians.",
+        },
+        {
+            id: 34,
+            name: "Beshak",
+            link: "https://www.beshak.org/",
+            team: "8",
+            category: "Discussion Forum",
+            image: require("../assets/images/project/beshak.png"),
+            description:
+                "Beshak is India's first unbiased insurance advisor platform with marketplace to connect insurance buyers to insurance advisors.",
         },
     ]
 };
