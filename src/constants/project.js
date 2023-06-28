@@ -393,6 +393,16 @@ export const project = {
                 "Gillette's Kar Lo Safalta Mutthi Mein is Gillette's pan India marketing activity targeting college going students, to educate them about grooming, confidence and soft skills required for succeeding in their job interviews and landing their dream job. It involved campus activations with grooming sessions by mentors, Gillette Guard razor trials and sampling along with student engagement. The entire activity was digitized to ensure all stakeholders get timely updates about campaign performance.",
         },
         {
+            id: 7,
+            name: "Maven Organisation portfolio",
+            link: "https://www.mavenfms.com/",
+            team: "1",
+            category: "Showcase portfolio",
+            image: require("../assets/images/project/maven.png"),
+            description:
+                "Maven is a full-fledged facility management company based in India. Our offerings include comprehensive facility management solutions to meet the growing demands for a better and healthier working environment.",
+        },
+        {
             id: 31,
             name: "Whisper",
             link: "https://pgtry.com/whisper",
