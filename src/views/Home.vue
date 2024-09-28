@@ -27,7 +27,7 @@
                     </div>
                     <div class="cover-desc mt-6 md:w-4/6">
                         <p class="font-pb text-gray-10 text-md md:text-xl">
-                            Over 10+ Years of Experience in UI Development &amp;
+                            Over 11+ Years of Experience in UI Development &amp;
                             Designing. Working as Frontend/UI Developer got deep
                             dive more into Product Building. A passionate
                             frontend developer, love new features & nice code. I
