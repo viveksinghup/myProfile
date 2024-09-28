@@ -2,15 +2,29 @@
   <div>
     <div class="container">
       <div class="pt-20 pb-5 md:pb-20 text-center">
-        <h2 class="text-4xl md:text-6xl font-serif text-gradient">My Career Journey</h2>
-        <p class="text-md md:text-lg px-5 w-full md:w-10/12 mx-auto text-gray-10">
-          Becoming an expert in everything will be difficult, but basic knowledge & with a great focus on frontend development, I hope to build & design the coolest systems. I've been working on amazing companies in my years & it's hard to say what the perfect workplace is. As long as I develop myself, develop products & get the chance to work with something that creates value or difference for others.
+        <h2 class="text-4xl md:text-6xl font-serif text-gradient">
+          My Career Journey
+        </h2>
+        <p
+          class="text-md md:text-lg px-5 w-full md:w-10/12 mx-auto text-gray-10"
+        >
+          While becoming an expert in every aspect of frontend development may
+          be challenging, I believe that a strong foundational knowledge
+          combined with a focus on innovation will enable me to design and build
+          exceptional systems. Throughout my career, I have had the privilege of
+          working with outstanding companies, and I understand that the ideal
+          workplace varies for everyone. My primary goals are to continuously
+          develop my skills, create impactful products, and collaborate on
+          projects that deliver real value and make a difference for users.
         </p>
       </div>
     </div>
-    <div class="w-full mb-10 relative timeline-group" data-aos="fade-up"
-        data-aos-duration="1000"
-        data-aos-delay="0">
+    <div
+      class="w-full mb-10 relative timeline-group"
+      data-aos="fade-up"
+      data-aos-duration="1000"
+      data-aos-delay="0"
+    >
       <div
         class="tg-list flex items-start mt-16"
         v-for="jorney in career"
@@ -68,7 +82,7 @@ export default {
     top: 20px;
     width: 2px;
   }
-  @media screen and (max-width: 768px){
+  @media screen and (max-width: 768px) {
     padding-left: 30px;
     &:after {
       margin: 0px;
@@ -84,13 +98,13 @@ export default {
         transform: scale(1.5);
       }
     }
-    &:nth-child(even){
+    &:nth-child(even) {
       @apply flex flex-row-reverse;
       .tg-info {
         display: flex;
         flex-direction: column;
         align-items: flex-end;
-        p{
+        p {
           text-align: right;
         }
       }
@@ -99,22 +113,22 @@ export default {
         &:after {
           right: auto;
           left: -6px;
-          @media screen and (max-width: 768px){
+          @media screen and (max-width: 768px) {
             left: 0;
           }
         }
       }
-      @media screen and (max-width: 768px){
+      @media screen and (max-width: 768px) {
         @apply flex flex-row flex-wrap;
         .tg-info {
           align-items: flex-start;
-          p{
+          p {
             text-align: left;
           }
         }
       }
     }
-    @media screen and (max-width: 768px){
+    @media screen and (max-width: 768px) {
       @apply w-full flex-col;
     }
   }
@@ -133,16 +147,16 @@ export default {
       @apply bg-black;
       border-radius: 30px;
     }
-    @media screen and (max-width: 768px){
+    @media screen and (max-width: 768px) {
       @apply w-full items-start mb-5;
-      &:after{
+      &:after {
         right: auto;
         left: 0px;
       }
     }
   }
   &-right {
-    @media screen and (max-width: 768px){
+    @media screen and (max-width: 768px) {
       @apply w-full;
     }
   }
