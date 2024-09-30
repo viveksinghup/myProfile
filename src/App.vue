@@ -30,7 +30,7 @@ export default {
 }
 body {
   @apply text-black font-sans overflow-x-hidden;
-  transition: 0.25s;
+  transition: 0.5s;
   &.dark-mode {
     @apply bg-black text-white;
     .sub-header {
@@ -44,10 +44,11 @@ body {
     .app-footer {
       @apply bg-black;
     }
-    .img-block{
+    .img-block {
       @apply bg-white;
     }
-    .timeline-group:after, .tg-left:after{
+    .timeline-group:after,
+    .tg-left:after {
       background-color: #fff;
     }
     .text {
@@ -171,14 +172,14 @@ body {
   );
 }
 ::-moz-selection {
-    @apply bg-black text-white;
-    text-shadow: none;
-    opacity: 1;
+  @apply bg-black text-white;
+  text-shadow: none;
+  opacity: 1;
 }
 ::selection {
-    @apply bg-black;
-    @apply text-white;
-    text-shadow: none;
-    opacity: 1;
+  @apply bg-black;
+  @apply text-white;
+  text-shadow: none;
+  opacity: 1;
 }
 </style>

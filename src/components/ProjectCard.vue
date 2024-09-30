@@ -1,12 +1,10 @@
 <template>
   <div
-    class="relative project-card transition duration-500 ease-in-out rounded-lg overflow-hidden cursor-pointer"
+    class="relative project-card transition duration-500 ease-in-out overflow-hidden cursor-pointer"
     @click="isActive = !isActive"
     :class="{ isOpen: isActive }"
   >
-    <div
-      class="flex img-wrap"
-    >
+    <div class="flex img-wrap">
       <img
         :src="$props && $props.image"
         :alt="$props && $props.name"
@@ -62,6 +60,7 @@ export default {
 .project-card {
   transition: 0.45s;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
   .p-name {
     transition: 0.45s;
     transform: translateY(100%);

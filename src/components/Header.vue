@@ -2,9 +2,11 @@
   <div>
     <div
       ref="submenu"
-      :class="`fixed bg-white transition duration-500 ease-in-out w-full z-10 left-0 top-0 right-0 sub-header ${
-        isMenuVisible ? 'sub-header--visible' : 'sub-header--hidden'
-      }`"
+      :class="
+        `fixed bg-white transition duration-500 ease-in-out w-full z-10 left-0 top-0 right-0 sub-header ${
+          isMenuVisible ? 'sub-header--visible' : 'sub-header--hidden'
+        }`
+      "
     >
       <div ref="submenu" class="container flex py-3 justify-between">
         <div class="logo">
@@ -13,19 +15,13 @@
           /></router-link>
         </div>
         <ul class="head-link flex space-x-4 items-center">
-          <li
-            class="cursor-pointer hover:text-blue"
-          >
+          <li class="cursor-pointer hover:text-blue">
             <router-link to="/projects">Projects</router-link>
           </li>
-          <li
-            class="cursor-pointer hover:text-blue"
-          >
+          <li class="cursor-pointer hover:text-blue">
             <router-link to="/journey">My Journey</router-link>
           </li>
-          <li
-            class="cursor-pointer hover:text-blue"
-          >
+          <li class="cursor-pointer hover:text-blue">
             <router-link to="/contact">Contact Me</router-link>
           </li>
           <li>
@@ -198,7 +194,7 @@ export default {
       }
     }
   }
-  &.darkmode-toggled{
+  &.darkmode-toggled {
     transform: rotate(180deg);
   }
 }

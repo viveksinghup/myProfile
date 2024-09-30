@@ -113,7 +113,7 @@
             data-aos-delay="700"
           >
             <div
-              class="project-block w-full md:w-10/12 sticky mb-20 max-w-full"
+              class="project-block w-full md:w-11/12 sticky mb-20 max-w-full"
               v-for="(item, index) in project.featured"
               :key="item.id"
               @click="openProjectView(item)"
